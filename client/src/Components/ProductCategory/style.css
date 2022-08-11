@@ -1,0 +1,11 @@
+.buttonColor {
+  color: #06623b !important;
+}
+
+.hover:hover {
+  color: #e9cb34 !important;
+}
+
+.text-align{
+    text-align: right;
+}

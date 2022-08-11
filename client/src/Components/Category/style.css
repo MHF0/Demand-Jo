@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #06623b !important;
+  border-bottom: 1px solid #e9ecef;
+  border-top: 1px solid #e9ecef;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: right !important;
+  height: 4vh;
+}
+
+.nav-link {
+  text-align: right !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: white !important;
+  margin-right: 2em;
+}
+
+.dropdown-item {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  right: 0;
+  left: auto;
+  width: 50% !important;
+}
+
+.dropdown-item a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.dropdown-item a:hover {
+  color: #06623b;
+}

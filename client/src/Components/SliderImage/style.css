@@ -1,0 +1,19 @@
+.sliderImage{
+    width: 100%;
+    height: 400px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 1238px) {
+    .sliderImage{
+        width: 100%;
+        height: 30% !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+    

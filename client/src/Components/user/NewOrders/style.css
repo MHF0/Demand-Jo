@@ -1,0 +1,15 @@
+.button-color-yes {
+  background-color: #00a65a !important;
+  width: 20% !important;
+  margin-left: 40% !important;
+}
+
+.button-color:hover {
+  background-color: #00a65a !important;
+}
+
+.button-color-no {
+  background-color: #dd4b39 !important;
+  width: 20% !important;
+  margin-left: 20% !important;
+}

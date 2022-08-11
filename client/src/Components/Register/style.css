@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.register_input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #e9cb34;
+}
+
+.checkbox {
+  margin-left: 10px;
+}
+
+.showPassword {
+  position: relative;
+  top: -30px;
+  right: 95%;
+  font-size: 15px;
+}
+
+.button {
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.button:hover {
+  border: 1px solid #e9cb34;
+  background-color: #e9cb34;
+  color: #fff;
+}

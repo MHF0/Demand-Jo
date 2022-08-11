@@ -1,0 +1,30 @@
+/* Search */
+.header_search {
+  display: flex;
+  flex: 1;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header_searchInput {
+  height: 35px;
+  padding: 10px;
+  width: 90%;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  outline-style: #06623b;
+  margin-right: 10px;
+}
+
+.header_searchInput:focus {
+  outline: none;
+  border: 3px solid #06623b;
+}
+
+.headerSearchIcon {
+  padding: 6px;
+  height: 35px;
+  background-color: #06623b;
+  border-radius: 5px 1px 1px 5px;
+  color: #fff !important;
+}
