@@ -66,7 +66,7 @@ const NewOrders = () => {
         }
       )
       .then((res) => {
-        toast.success("يمكنك الذهاب الى تفاصيل مشترياتك لتحميل الفاتورة");
+        toast.success("يمكنك الذهاب الى تفاصيل مشترياتك لمعرفة تفاصيل الطلب");
         getOrders();
       })
       .catch((err) => {

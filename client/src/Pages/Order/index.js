@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { toast } from "react-toastify";
 import { getAddToCart } from "../../Components/redux/reducers/addToCart";
 import { useNavigate } from "react-router-dom";
 import GetUserAddress from "../../Components/user/GetUserAddress";
@@ -69,11 +68,9 @@ const Order = () => {
         }
       )
       .then((res) => {
-        console.log(res);
         emptyCart();
         dispatch(getAddToCart([]));
-        toast.success("سوف يتم معالجة الطلب قريبا");
-        navigate("/user/orders");
+        navigate("/order/success");
       })
       .catch((err) => {
         console.log(err);

@@ -31,6 +31,7 @@ const CreateBrand = lazy(() => import("./Pages/Admin/CreateBrand"));
 const CreateCategory = lazy(() => import("./Pages/Admin/CreateCategory"));
 const CreateSubCategory = lazy(() => import("./Pages/Admin/CreateSubCategory"));
 const CreateSlideImage = lazy(() => import("./Pages/Admin/CreateSlideImage"));
+const OrderSecsusess = lazy(() => import("./Pages/OrderSecsusess"));
 
 const App = () => {
   return (
@@ -90,6 +91,7 @@ const App = () => {
                 <Route path="/user/orders" element={<NewOrders />} />
                 <Route path="/user/history" element={<UserHistory />} />
                 <Route path="/admin" element={<AdminNav />} />
+                <Route path="/order/success" element={<OrderSecsusess />} />
               </Routes>
             </>
             <Footer />
