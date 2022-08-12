@@ -38,7 +38,7 @@ const Category = () => {
 
   return (
     <>
-      <Navbar className="navbar" expand="lg">
+      <Navbar className="navbar nav-color" expand="lg">
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

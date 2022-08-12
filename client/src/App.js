@@ -32,6 +32,10 @@ const CreateCategory = lazy(() => import("./Pages/Admin/CreateCategory"));
 const CreateSubCategory = lazy(() => import("./Pages/Admin/CreateSubCategory"));
 const CreateSlideImage = lazy(() => import("./Pages/Admin/CreateSlideImage"));
 const OrderSecsusess = lazy(() => import("./Pages/OrderSecsusess"));
+const Jops = lazy(() => import("./Pages/FooterPages/Jops"));
+const PrivacyPolicy = lazy(() => import("./Pages/FooterPages/Privicy"));
+const Advertise = lazy(() => import("./Pages/FooterPages/Advertise"));
+const SallerWithUs = lazy(() => import("./Pages/FooterPages/SallerWithUs"));
 
 const App = () => {
   return (
@@ -92,6 +96,10 @@ const App = () => {
                 <Route path="/user/history" element={<UserHistory />} />
                 <Route path="/admin" element={<AdminNav />} />
                 <Route path="/order/success" element={<OrderSecsusess />} />
+                <Route path="/jops" element={<Jops />} />
+                <Route path="/privicy" element={<PrivacyPolicy />} />
+                <Route path="/advertise" element={<Advertise />} />
+                <Route path="/saller" element={<SallerWithUs />} />
               </Routes>
             </>
             <Footer />

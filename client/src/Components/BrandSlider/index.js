@@ -42,14 +42,12 @@ const BrandSlide = () => {
   return (
     <div>
       <AliceCarousel
-        mouseTracking
         autoPlay
         disableButtonsControls
         infinite
         autoPlayInterval="3000"
         items={items}
         responsive={responsive}
-        controlsStrategy="alternate"
       />
     </div>
   );

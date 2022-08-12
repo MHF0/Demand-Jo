@@ -14,6 +14,7 @@ import { getUserInfo } from "../redux/reducers/auth";
 import Category from "../Category";
 import { Menu, Dropdown } from "antd";
 import { logout } from "../redux/reducers/auth";
+import Logo from "./D2.png";
 
 const Header = () => {
   const { isLoggedIn, token, userInfo } = useSelector((state) => state.auth);
@@ -104,7 +105,7 @@ const Header = () => {
       <div className="header">
         <Link to="/">
           <div className="header_logo">
-            <p>Demand</p>
+            <img src={Logo} alt="logo" width="120" className="logo"/>
           </div>
         </Link>
 
@@ -222,7 +223,6 @@ const Header = () => {
           </Link>
         </div>
       </div>
-
       <Category />
     </>
   );
